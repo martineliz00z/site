@@ -125,6 +125,36 @@ nav a:hover{
     margin-bottom:20px;
 }
 
+.galeria {
+    width: 100%;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.galeria h2 {
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.imagens-galeria {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.imagens-galeria img {
+    width: 350px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.imagens-galeria img:hover {
+    transform: scale(1.05);
+}
+
 footer{
     background:#222;
     color:white;
